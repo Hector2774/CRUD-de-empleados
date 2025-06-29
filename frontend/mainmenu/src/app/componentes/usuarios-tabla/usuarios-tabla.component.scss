@@ -1,0 +1,120 @@
+.table-container{
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+   
+}
+h2{
+    width: 100%;
+}
+.user-list-container{
+    padding: 15px;
+    
+}
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: scroll;
+}
+
+th, td{
+    
+    padding: 10px;
+    
+}
+tr{
+    height: 50px;
+}
+
+thead{
+    width: 100%;
+    background: #7AB647;
+    border-bottom: solid 5px #0f362d;
+    color: #fff;
+    position: sticky;
+    
+}
+
+.td-acciones{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+
+
+tr:nth-child(even){
+    background: #ddd;
+}
+
+.boton-editar{
+   
+    font-size: 16px;
+    border: none;
+   
+    background: #f4d709;
+    
+    cursor: pointer;
+    
+    
+}
+
+.boton-eliminar{
+    
+ 
+    font-size: 16px;
+    border: none;
+   
+    background: #f40909;
+   
+    cursor: pointer;
+}
+
+.boton-editar:hover{
+   
+    
+    background: #e2b507;
+    
+}
+
+mat-icon{
+    vertical-align: middle;
+
+}
+
+.ic-btn-tabla{
+    margin-right: 5px;
+}
+
+.btn-agregar{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    background: rgb(25, 108, 171);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn-refresh{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    background:  #589425;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+   
+}
+.btn-refresh:hover{
+    background:  #367203;
+}
+
+.btn-agregar:hover{
+    background: rgb(15, 88, 151);
+}

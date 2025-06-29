@@ -1,0 +1,39 @@
+<div class="user-list-container">
+    <h2>Lista de Usuarios</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+           
+            <th>Nombre</th>
+            <th>Empleado</th>
+            <th>Rol</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let usuario of usuarios">
+          
+            <td>{{ usuario.username }}</td>
+            <td>{{usuario.empleadoNombre}}</td>
+            <td>{{ usuario.rol }}</td>
+            <td>{{usuario.estadoUserNombre}}</td>
+            
+            <td class="td-acciones">
+              <button  class="boton-editar" (click)="openEditUsuario(usuario.id)"><mat-icon aria-label>edit</mat-icon></button>
+             
+            </td>
+           
+
+          </tr>
+        </tbody>
+      </table>
+     
+    </div>
+   
+    <button class="btn-refresh" (click)="actualizarTabla()"><mat-icon aria-label class="ic-btn-tabla">refresh</mat-icon>Actualizar tabla</button>
+
+  </div>
+

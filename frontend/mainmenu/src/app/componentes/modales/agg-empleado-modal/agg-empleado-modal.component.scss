@@ -1,0 +1,55 @@
+h2 {
+    text-align: center;
+  }
+
+  .modal-container{
+    padding: 30px;
+border-radius: 100%;
+
+  }
+
+  .emplado-inputs{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+  .modal-header{
+    margin: 0;
+    width: 100%;
+    background: rgb(25, 108, 171);
+    color: #fff;
+  }
+  
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.usuario-inputs{
+  mat-card-content{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+   width: 250px;
+  }
+}
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+  }
+
+  .mat-mdc-dialog-surface{
+    border-radius: 0px !important; 
+    height: 400px !important;
+  }
+
+ 
+  

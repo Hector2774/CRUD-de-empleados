@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\guardaruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\guardaruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\verempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\verempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\editempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\editempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\cargodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\cargodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\saveempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\saveempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\models\\dbusuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\models\\dbusuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\niveleducativodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\niveleducativodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\models\\niveleducativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\models\\niveleducativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|c:\\users\\arely flores\\onedrive - catie\\escritorio\\audishield\\backend\\audapi\\audapi\\audapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FF0D90F-5257-41C5-9579-A1840FC7F8E9}|AudApi\\AudApi.csproj|solutionrelative:audapi\\audapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuardarUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\GuardarUserDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\GuardarUserDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\GuardarUserDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\GuardarUserDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T16:58:02.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "AudApi\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "AudApi\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAQwLEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T17:47:13.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\UsuarioDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\UsuarioDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:55:54.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "AudApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "AudApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:20:08.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditEmpleadoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\EditEmpleadoDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\EditEmpleadoDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\EditEmpleadoDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\EditEmpleadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:44:09.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "AudApi\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\Empleado.cs",
+              "RelativeToolTip": "AudApi\\Models\\Empleado.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:10:38.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaveEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\SaveEmpleado.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\SaveEmpleado.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\SaveEmpleado.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\SaveEmpleado.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T21:13:41.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerEmpleadoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\VerEmpleadoDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\VerEmpleadoDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\VerEmpleadoDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\VerEmpleadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:10:29.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CargoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\CargoDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\CargoDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\CargoDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\CargoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:05:17.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NivelEducativo.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\NivelEducativo.cs",
+              "RelativeDocumentMoniker": "AudApi\\Models\\NivelEducativo.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\NivelEducativo.cs",
+              "RelativeToolTip": "AudApi\\Models\\NivelEducativo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:33:21.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbUsuarioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\DbUsuarioContext.cs",
+              "RelativeDocumentMoniker": "AudApi\\Models\\DbUsuarioContext.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Models\\DbUsuarioContext.cs",
+              "RelativeToolTip": "AudApi\\Models\\DbUsuarioContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:12:56.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NivelEducativoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\NivelEducativoDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\NivelEducativoDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\NivelEducativoDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\NivelEducativoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:52:46.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogInDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\LogInDTO.cs",
+              "RelativeDocumentMoniker": "AudApi\\DTOs\\LogInDTO.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\DTOs\\LogInDTO.cs",
+              "RelativeToolTip": "AudApi\\DTOs\\LogInDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:53:29.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Program.cs",
+              "RelativeDocumentMoniker": "AudApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\Program.cs",
+              "RelativeToolTip": "AudApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:16:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AudApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\appsettings.json",
+              "RelativeToolTip": "AudApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T20:14:05.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AudApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\AudApi.csproj",
+              "RelativeDocumentMoniker": "AudApi\\AudApi.csproj",
+              "ToolTip": "C:\\Users\\Arely Flores\\OneDrive - CATIE\\Escritorio\\AudiShield\\backend\\AudApi\\AudApi\\AudApi.csproj",
+              "RelativeToolTip": "AudApi\\AudApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T20:52:36.095Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

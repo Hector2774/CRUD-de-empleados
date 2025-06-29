@@ -1,0 +1,85 @@
+.demo-table {
+    width: 100%;
+  }
+.empleados-list-container{
+    padding: 10px;
+    
+}
+
+.table-container{
+    overflow-y: scroll;
+    max-height: 450px;
+    margin-bottom: 10px;
+}
+th{
+    position: sticky;
+}
+.mat-mdc-row .mat-mdc-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+}
+  
+.mat-mdc-row:hover .mat-mdc-cell {
+    border-color: currentColor;
+}
+  
+.demo-row-is-clicked {
+    font-weight: bold; 
+}
+
+.btn-editar{
+    background: #f4d709;
+    cursor: pointer;
+}
+
+mat-icon{
+    vertical-align: middle;
+}
+
+.btn-eliminar{
+    background: #f40909;
+    cursor: pointer;
+}
+
+.btn-agregar, .btn-usuarios{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    background: rgb(25, 108, 171);
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-refresh{
+    margin-top: 10px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    background:  #589425;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.btn-refresh:hover{
+    background:  #367203;
+}
+
+.btn-agregar:hover, .btn-usuarios:hover{
+    background: rgb(15, 88, 151);
+}
+
+tr:nth-child(even){
+  background: #ddd;
+}
+
+th{
+  background: #367203;
+}

@@ -1,0 +1,70 @@
+<div class="modal-header">
+  <h2>{{ title }}</h2>
+</div>
+
+<div class="modal-container">
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+    <!-- Nombre de usuario -->
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="username" type="text" required>
+      <mat-error *ngIf="userForm.get('username')?.invalid && userForm.get('username')?.touched">
+        El nombre es obligatorio y debe tener al menos 3 caracteres.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>id empleado</mat-label>
+      <input matInput formControlName="empleadoId" type="number" required>
+     
+    </mat-form-field>
+
+    <!-- Contraseña -->
+    <mat-form-field appearance="fill">
+      <mat-label>Contraseña</mat-label>
+      <input matInput type="password" formControlName="password" required placeholder="Ingresa Contraseña">
+      <mat-error *ngIf="password?.errors?.['required']">La contraseña es obligatoria.</mat-error>
+      <mat-error *ngIf="password?.errors?.['minlength']">Debe tener al menos 8 caracteres.</mat-error>
+      <mat-error *ngIf="password?.errors?.['pattern']">
+        Debe contener al menos una letra mayúscula, un número, un símbolo y letras.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Rol</mat-label>
+      <mat-select formControlName="rolId">
+        <mat-option *ngFor="let rl of roles" [value]="rl.idRol">
+          {{ rl.rol }}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="userForm.get('rolId')?.invalid">
+        El rol es requerido
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Seleccione un Estado</mat-label>
+      <mat-select formControlName="estadoUserId">
+        <mat-option *ngFor="let est of estados" [value]="est.estadoUserId">
+          {{ est.estado}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="userForm.get('estadoUserId')?.invalid">
+        El estado es requerido
+      </mat-error>
+    </mat-form-field>
+
+    
+   
+   
+   
+
+    <!-- Botones -->
+    <div class="modal-actions">
+      <button mat-button type="button" (click)="close()">Cancelar</button>
+      <button type="submit" mat-raised-button color="primary" [disabled]="userForm.invalid">Guardar</button>
+    </div>
+
+  </form>
+</div>

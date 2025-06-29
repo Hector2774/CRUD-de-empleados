@@ -1,0 +1,52 @@
+<div class="modal-header">
+    <h2>Editar datos del usuarios</h2>
+</div>
+
+<div class="modal-container">
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+    <!-- Nombre de usuario -->
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="username" type="text" required>
+      <mat-error *ngIf="userForm.get('username')?.invalid && userForm.get('username')?.touched">
+        El nombre es obligatorio y debe tener al menos 3 caracteres.
+      </mat-error>
+    </mat-form-field>
+
+   
+
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Rol</mat-label>
+      <mat-select formControlName="idRol">
+        <mat-option *ngFor="let roli of roles" [value]="roli.idRol">
+          {{ roli.rol }}
+        </mat-option>
+      </mat-select>
+     
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Seleccione un Estado</mat-label>
+      <mat-select formControlName="estadoUserId">
+        <mat-option *ngFor="let est of estados" [value]="est.estadoUserId">
+          {{ est.estado}}
+        </mat-option>
+      </mat-select>
+    
+    </mat-form-field>
+
+    
+   
+   
+   
+
+    <!-- Botones -->
+    <div class="modal-actions">
+      <button mat-button type="button" (click)="close()">Cancelar</button>
+      <button type="submit" mat-raised-button color="primary" [disabled]="userForm.invalid">Guardar</button>
+    </div>
+
+  </form>
+</div>

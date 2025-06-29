@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventario de Políticas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .hallazgo-maestro {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: red;
+      text-transform: uppercase;
+    }
+    .pdf-button {
+      padding: 5px 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .detalle-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    .detalle-table th, .detalle-table td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    .detalle-table th {
+      background-color: #f0f0f0;
+    }
+    .categorias {
+      margin-top: 20px;
+    }
+    .categorias label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="hallazgo-maestro">HALLAZGO MAESTRO: Política de Seguridad</div>
+      <button class="pdf-button">Generar PDF</button>
+    </div>
+
+    <div class="detalle">
+      <h3>Hallazgos Detalle</h3>
+      <table class="detalle-table">
+        <thead>
+          <tr>
+            <th>Tipo</th>
+            <th>#</th>
+            <th>Color</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i>Observación</i></td>
+            <td>1</td>
+            <td style="color: red">Crítico</td>
+          </tr>
+          <tr>
+            <td><i>Recomendación</i></td>
+            <td>2</td>
+            <td style="color: orange">Moderado</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="categorias">
+      <label><strong>A.</strong> Documentación</label>
+      <label><strong>B.</strong> Implementación</label>
+      <label><strong>C.</strong> Seguimiento</label>
+      <label><strong>D.</strong> Evaluación</label>
+    </div>
+  </div>
+</body>
+</html>

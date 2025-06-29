@@ -1,0 +1,78 @@
+<div class="modal-header">
+    <h2> Editar Datos del empleado</h2>
+  </div>
+  
+  <div class="modal-container">
+    <form [formGroup]="empleadoForm" (ngSubmit)="onSubmit()">
+  
+      <!-- Nombre de usuario -->
+      <mat-form-field appearance="fill">
+        <mat-label>Nombres</mat-label>
+        <input matInput formControlName="nombres" type="text" required>
+      
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Apellidos</mat-label>
+        <input matInput formControlName="apellidos" type="text" required>
+      
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Identidad</mat-label>
+        <input matInput formControlName="identidad" type="text" required>
+      
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Fecha de contratacion</mat-label>
+        <input matInput formControlName="fechaContratacion" type="date">
+      </mat-form-field>
+      
+
+      <mat-form-field appearance="fill">
+        <mat-label>Telefono</mat-label>
+        <input matInput formControlName="telefono" type="text" required>
+        
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>correo</mat-label>
+        <input matInput formControlName="correo" type="text" required>
+      
+      </mat-form-field>
+      
+      <mat-form-field appearance="fill">
+        <mat-label>Nivel Educativo</mat-label>
+        <mat-select formControlName="nivelEducativoId">
+          <mat-option *ngFor="let nvle of nivelEducativo" [value]="nvle.nivelEducativoId">
+            {{ nvle.nivelEducativoNombre }}
+          </mat-option>
+        </mat-select>
+       
+      </mat-form-field>
+      
+
+      <mat-form-field appearance="fill">
+        <mat-label>Seleccione un cargo</mat-label>
+        <mat-select formControlName="cargoId">
+          <mat-option *ngFor="let cargos of cargo" [value]="cargos.cargoId">
+            {{ cargos.nombreCargo }}
+          </mat-option>
+        </mat-select>
+       
+      </mat-form-field>
+  
+      
+      
+      <!-- Contraseña -->
+  
+      <!-- Botones -->
+      <div class="modal-actions">
+        <button mat-button type="button" (click)="close()">Cancelar</button>
+        <button type="submit" mat-raised-button color="primary" >Actualizar</button>
+      </div>
+  
+    </form>
+  </div>
+  

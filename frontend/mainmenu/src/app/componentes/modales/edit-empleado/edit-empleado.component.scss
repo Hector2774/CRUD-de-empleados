@@ -1,0 +1,46 @@
+h2 {
+    text-align: center;
+  }
+
+  .modal-container{
+padding: 30px;
+border-radius: 100%;
+
+  //  background: rgb(25, 108, 171);
+   // color: #fff;
+    
+    
+  }
+  .modal-header{
+    margin: 0;
+    width: 100%;
+    background: rgb(25, 108, 171);
+    color: #fff;
+  }
+  
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+  }
+
+  .custom-dialog-container {
+    border-radius: 0 !important; /* Bordes más redondeados */
+    background-color: rgb(167, 24, 24) !important;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+  }
+  .mat-dialog-container {
+    border-radius: 0px; /* Ajusta el radio de borde */
+    padding: 24px; /* Agrega más espacio interno */
+  }

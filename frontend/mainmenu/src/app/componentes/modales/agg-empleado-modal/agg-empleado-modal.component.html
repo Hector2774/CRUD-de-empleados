@@ -1,0 +1,121 @@
+<div class="modal-header">
+    <h2> Agregar empleado</h2>
+  </div>
+  
+  <div class="modal-container">
+    <form [formGroup]="empleadoForm" (ngSubmit)="onSubmit()">
+      
+     <div class="emplado-inputs">
+      <mat-form-field appearance="fill">
+        <mat-label>Nombres</mat-label>
+        <input matInput formControlName="nombres" type="text" required>
+        <mat-error *ngIf="empleadoForm.get('nombres')?.invalid">
+          El nombre es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Apellidos</mat-label>
+        <input matInput formControlName="apellidos" type="text" required>
+        <mat-error *ngIf="empleadoForm.get('apellidos')?.invalid">
+          El apellido es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Identidad</mat-label>
+        <input matInput formControlName="identidad" type="text" required>
+        <mat-error *ngIf="empleadoForm.get('identidad')?.invalid">
+          El numero de indentidad es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Fecha de contratacion</mat-label>
+        <input matInput formControlName="fechaContratacion" type="date" required>
+        <mat-error *ngIf="empleadoForm.get('fechaContratacion')?.invalid">
+          La fecha de contratacion es requerida
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Telefono</mat-label>
+        <input matInput formControlName="telefono" type="text" required>
+        <mat-error *ngIf="empleadoForm.get('telefono')?.invalid">
+          El telefono es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>correo</mat-label>
+        <input matInput formControlName="correo" type="text" required>
+        <mat-error *ngIf="empleadoForm.get('correo')?.invalid">
+          El correo es requerido
+        </mat-error>
+      </mat-form-field>
+      
+      <mat-form-field appearance="fill">
+        <mat-label>Nivel Educativo</mat-label>
+        <mat-select formControlName="nivelEducativoId">
+          <mat-option *ngFor="let nvle of nivelEducativo" [value]="nvle.nivelEducativoId">
+            {{ nvle.nivelEducativoNombre }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="empleadoForm.get('nivelEducativoId')?.invalid">
+          El nivel educativo es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Seleccione un cargo</mat-label>
+        <mat-select formControlName="cargoId">
+          <mat-option *ngFor="let cargo of cargos" [value]="cargo.cargoId">
+            {{ cargo.nombreCargo }}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="empleadoForm.get('cargoId')?.invalid">
+          El cargo es requerido
+        </mat-error>
+      </mat-form-field>
+     </div>
+       
+        
+  
+        
+        
+  <div class="usuario-inputs">
+    <mat-card>
+      <mat-card-title>Creacion de usuario</mat-card-title>
+      <mat-card-content>
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre</mat-label>
+          <input matInput formControlName="username" type="text" required>
+          <mat-error *ngIf="empleadoForm.get('username')?.invalid && empleadoForm.get('username')?.touched">
+            El nombre es obligatorio y debe tener al menos 3 caracteres.
+          </mat-error>
+        </mat-form-field>
+        <!-- Contraseña -->
+        
+        <mat-form-field appearance="fill">
+          <mat-label>Contraseña</mat-label>
+          <input matInput type="password" formControlName="password" required placeholder="Ingresa Contraseña">
+        
+        </mat-form-field>
+      </mat-card-content>
+    </mat-card>
+  </div>
+    
+   
+
+      
+     
+  
+      <!-- Botones -->
+      <div class="modal-actions">
+        <button mat-button type="button" (click)="close()">Cancelar</button>
+        <button type="submit" mat-raised-button color="primary" [disabled]="empleadoForm.invalid">Guardar</button>
+      </div>
+  
+    </form>
+  </div>
+  

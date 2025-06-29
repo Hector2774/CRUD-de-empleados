@@ -1,0 +1,27 @@
+
+<div class="background">
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+  
+    <form (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="fill">
+            <mat-label  >Usuario</mat-label>
+            <input matInput id="usuario" [(ngModel)]="username" name="username" required type="text">
+          </mat-form-field>
+        
+          <mat-form-field appearance="fill" >
+            <mat-label>Contraseña</mat-label>
+            
+            <input matInput type="password" id="contra" name="contra" [(ngModel)]="password" required placeholder="Ingresa Contraseña">
+          </mat-form-field>
+      <button type="submit">Ingresar</button>
+    </form>
+  </div>
+
+</div>
+    
+  
+  
+
+
+    

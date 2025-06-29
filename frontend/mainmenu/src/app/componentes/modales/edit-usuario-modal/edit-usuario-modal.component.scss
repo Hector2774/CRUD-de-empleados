@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+    
+  }
+
+  .modal-container{
+padding: 30px;
+border-radius: 100%;
+
+  //  background: rgb(25, 108, 171);
+   // color: #fff;
+    
+    
+  }
+  .modal-header{
+    margin: 0;
+    width: 100%;
+    background: #e2b507;
+    color: #fff;
+  }
+  
+mat-form-field{
+    width: 100%;
+}
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+  }
+

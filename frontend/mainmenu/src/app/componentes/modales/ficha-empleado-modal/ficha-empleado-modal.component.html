@@ -1,0 +1,24 @@
+<mat-card class="ficha-empleado">
+    <mat-card-title>Ficha de {{ data.nombres }} {{ data.apellidos }}</mat-card-title>
+    <mat-card-content>
+      <p><strong>Identidad:</strong> {{ data.identidad }}</p>
+      <p><strong>Fecha de contratación:</strong> {{ data.fechaContratacion | date }}</p>
+      <p><strong>Teléfono:</strong> {{ data.telefono }}</p>
+      <p><strong>Correo:</strong> {{ data.correo }}</p>
+      <p><strong>Cargo:</strong> {{ data.cargoNombre }}</p>
+      <p><strong>Nivel educativo:</strong> {{ data.nivelEducativoNombre }}</p>
+  
+      <p><strong>Usuarios asignados:</strong></p>
+      <ul *ngIf="data.usuarios.length > 0; else sinUsuarios">
+        <li *ngFor="let user of data.usuarios">{{ user.username }}</li>
+      </ul>
+      <ng-template #sinUsuarios>
+        <p>No hay usuarios asignados.</p>
+      </ng-template>
+
+      <button mat-stroked-button color="primary" (click)="close()">Cerrar</button>
+      <button mat-stroked-button color="primary" (click)="openEditarEmpleado()">Editar</button>
+      <button mat-stroked-button color="primary" (click)="eliminarEmpleado()">Eliminar</button>
+    </mat-card-content>
+  </mat-card>
+  

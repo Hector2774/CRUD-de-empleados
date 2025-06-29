@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-dialog-container {
+  border-radius: 0px !important; 
+  height: 400px;// Quita bordes redondeados
+}
+
+
+.mat-mdc-dialog-surface{
+  border-radius: 0px !important; 
+  
+}
+
+.cdk-overlay-pane.mat-mdc-dialog-panel{
+
+max-width: none !important;
+
+}
+
+

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4GYhTsU/03kPBABk+bG/luGPMrF3G9K16Oo5ApDrMds=",
+  "Source": "AudApi",
+  "BasePath": "_content/AudApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
